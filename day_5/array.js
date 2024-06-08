@@ -169,7 +169,22 @@
 
 
                     //    (forEach loop)
-  let arr=[10,20,30,40,50];
-  arr.forEach((value,index)=>{
+  // let arr=[10,20,30,40,50];
+  // arr.forEach((value,index)=>{
   
-    })
+  //   })
+
+                  // [function with using array]
+
+                  
+  //  let arr=[10,20,30,40,50];
+  //  function getSum(arr){
+  //   let leg=arr.length;
+  //   let sum=0;
+  //   for(let index=0;index<leg;index++)
+  //   sum=sum+arr[index];
+  //   return sum;  
+  //  }  
+    
+  //  let totalSum=getSum(arr);
+  //  console.log(totalSum);       
