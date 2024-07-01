@@ -6,11 +6,18 @@
 // let button=document.getElementById("insta");
 // button.addEventListener("click",changetext);
 
-function changeinput(){
-    let inputelement=document.getElementById("input");
-    inputelement.setAttribute('placeHolder','type to here');
+// function changeinput(){
+//     let inputelement=document.getElementById("input");
+//     inputelement.setAttribute('placeHolder','type to here');
     
+// }
+// let inputelement=document.getElementById('input')
+// inputelement.addEventListener('click',changeinput);
+function newelement(event){
+    let anchor=document.getElementById('fanchor');
+    anchor.preventDefault();
+    anchor.textContent="hellow akshat patidar";
+ 
 }
-let inputelement=document.getElementById('input')
-inputelement.addEventListener('',changeinput);
-
+let anchor=document.getElementById('fanchor');
+anchor.addEventListener('click',newelement)
